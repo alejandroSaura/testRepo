@@ -8,10 +8,12 @@ class Planta
         this.crecimientoPorDia = 1;
         this.longitud = 1;
         this.edad = 15;
-        this.dueño = "alex";
+		this.altura = 20;
+        
+		this.dueño = "alex";
         this.numeroDeHojas = 34;
-
-        this. hihds = "lqjsdl";
+        this.hihds = "lqjsdl";
+        
     }
 
     dameColor()
