@@ -8,6 +8,8 @@ class Planta
         this.crecimientoPorDia = 1;
         this.longitud = 1;
         this.edad = 15;
+        this.dueño = "alex";
+        this.numeroDeHojas = 34;
     }
 
     dameColor()
@@ -19,6 +21,8 @@ class Planta
         {
             // 1000 lineas - 5 segundos
         }
+
+        console.log("color");
 
         return color;
     }
