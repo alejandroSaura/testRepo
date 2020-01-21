@@ -10,6 +10,8 @@ class Planta
         this.edad = 15;
         this.dueño = "alex";
         this.numeroDeHojas = 34;
+
+        this. hihds = "lqjsdl";
     }
 
     dameColor()
@@ -36,6 +38,12 @@ class Planta
     {
         if (this.estado === "humeda")
         {
+            this.peso += this.crecimientoPorDia;
+            this.estado = "seca";
+
+            this.peso += this.crecimientoPorDia;
+            this.estado = "seca";
+
             this.peso += this.crecimientoPorDia;
             this.estado = "seca";
         }
