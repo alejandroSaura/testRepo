@@ -8,6 +8,7 @@ class Planta
         this.crecimientoPorDia = 1;
         this.longitud = 1;
         this.edad = 15;
+        this.altura = 20;
     }
 
     dameColor()
