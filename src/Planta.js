@@ -6,6 +6,8 @@ class Planta
         this.peso = 1;
         this.estado = "seca";
         this.crecimientoPorDia = 1;
+        this.longitud = 1;
+        this.edad = 15;
     }
 
     dameColor()
